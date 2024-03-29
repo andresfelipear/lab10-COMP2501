@@ -12,8 +12,8 @@ public class MusicMedia
     private int totalRuntime;
     private final int year;
 
-    private static final int MIN_SONG_LENGTH = 2;
-    private static final int MAX_SONG_LENGTH = 305;
+    private static final int MIN_SONG_TITLE_LENGTH = 2;
+    private static final int MAX_SONG_TITLE_LENGTH = 305;
     public MusicMedia(final String artist,
                       final String songTitle,
                       final int totalSongs,
@@ -52,9 +52,9 @@ public class MusicMedia
         this.year = year;
     }
 
-    private boolean isValidSongTitle(final String songTitle)
+    public static boolean isValidSongTitle(final String songTitle)
     {
-        return songTitle != null && songTitle.length() > MIN_SONG_LENGTH && songTitle.length() <= MAX_SONG_LENGTH;
+        return songTitle != null && songTitle.length() > MIN_SONG_TITLE_LENGTH && songTitle.length() <= MAX_SONG_TITLE_LENGTH;
     }
 
     public String getArtist()

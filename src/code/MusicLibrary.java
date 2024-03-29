@@ -19,7 +19,7 @@ public class MusicLibrary
     /**
      * add a subtype to the ArrayList musicMedias, first checking to be sure the parameter
      * is not null.
-     * @param media this will be add to the list.
+     * @param media this will be added to the list.
      */
     public void addMedia(MusicMedia media)
     {
@@ -40,8 +40,18 @@ public class MusicLibrary
         }
     }
 
+    /**
+     * Will validate the parameter appropriately and then search the library for the tile.
+     * If found the playSelection() method will be called.
+     * @param title this will be search in the library.
+     */
     public void playTitle(String title)
     {
+        if(!MusicMedia.isValidSongTitle(title))
+        {
+            throw new IllegalArgumentException("Invalid song title.")
+        }
+
         for(MusicMedia media : library)
         {
             if(media.getSongTitle().equalsIgnoreCase(title))
@@ -50,6 +60,4 @@ public class MusicLibrary
             }
         }
     }
-
-
 }
