@@ -62,9 +62,9 @@ public class Record extends MusicMedia
     }
 
     @Override
-    public void playSection()
+    public void playSelection()
     {
-        super.playSection();
+        super.playSelection();
         System.out.println("You selected the record " + getSongTitle() + " by " + getArtist() + ".\n" +
                         "This is a " + sizeInches + " inch record from " + getYear() + ", playing at " + rpm + " rpm.");
     }

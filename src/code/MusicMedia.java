@@ -82,7 +82,7 @@ public class MusicMedia
         return year;
     }
 
-    public void playSection()
+    public void playSelection()
     {
         System.out.println("Thank you for using our Music Library.");
     }

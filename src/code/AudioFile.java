@@ -42,9 +42,9 @@ public class AudioFile extends MusicMedia
     }
 
     @Override
-    public void playSection()
+    public void playSelection()
     {
-        super.playSection();
+        super.playSelection();
         System.out.println("You selected the Audio File " + getSongTitle() + " by " + getArtist() + ".\n" +
                                    "This file is in" + typeFile + "format, from " + getYear() + ".");
     }
