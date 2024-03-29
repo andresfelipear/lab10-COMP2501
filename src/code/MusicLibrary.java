@@ -10,6 +10,9 @@ public class MusicLibrary
 {
     private final ArrayList<MusicMedia> library;
 
+    /**
+     * Initialize the library list.
+     */
     public MusicLibrary()
     {
         library = new ArrayList<>();
@@ -43,13 +46,13 @@ public class MusicLibrary
     /**
      * Will validate the parameter appropriately and then search the library for the tile.
      * If found the playSelection() method will be called.
-     * @param title this will be search in the library.
+     * @param title this will be searched in the library.
      */
     public void playTitle(String title)
     {
         if(!MusicMedia.isValidSongTitle(title))
         {
-            throw new IllegalArgumentException("Invalid song title.")
+            throw new IllegalArgumentException("Invalid song title.");
         }
 
         for(MusicMedia media : library)

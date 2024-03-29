@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fedec6f-cf17-40d1-ae37-ec459595ed32" name="Changes" comment="lab10">
+    <list default="true" id="4fedec6f-cf17-40d1-ae37-ec459595ed32" name="Changes" comment="working in the music library">
+      <change afterPath="$PROJECT_DIR$/src/code/MusicDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/code/AudioFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/AudioFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/code/MusicLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/MusicLibrary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/code/MusicMedia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/MusicMedia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/code/Record.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/Record.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +40,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.MusicDriver.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -52,6 +57,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="MusicDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MusicDriver" />
+      <module name="lab10" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MusicDriver" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711652032537</updated>
-      <workItem from="1711652033594" duration="5269000" />
+      <workItem from="1711652033594" duration="7746000" />
     </task>
     <task id="LOCAL-00001" summary="lab10">
       <option name="closed" value="true" />
@@ -78,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711725515403</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="working in the music library">
+      <option name="closed" value="true" />
+      <created>1711725988108</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711725988108</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +113,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lab10" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab10" />
+    <MESSAGE value="working in the music library" />
+    <option name="LAST_COMMIT_MESSAGE" value="working in the music library" />
   </component>
 </project>
